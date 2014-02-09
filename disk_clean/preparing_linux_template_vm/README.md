@@ -2,7 +2,7 @@ Dan over at Bashing Linux [has a good post ](http://bashinglinux.wordpress.com/2
 
 You can do this in full multiuser — runlevel 3 — or in single-user by issuing an “init 1″ and waiting for all the processes to stop. I wouldn’t do any of this in runlevel 5, with full X Windows running. In fact, I really don’t suggest installing X Windows at all on VMs unless you really, really need it for some reason… but that’s a whole different topic. I’d also suggest taking a snapshot of your template prior to trying any of this out. As Lenin said, “Trust, but verify.”
 
-# Step 1: Clean out yum. #
+# Step 1: Clean out yum.#
 
     /usr/bin/yum clean all
 
